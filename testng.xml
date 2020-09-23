@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" >
+  <test name="Amazon">
+   <listeners>
+       
+        <listener class-name="resources.ExtentReporterNG"/>
+  <!--    <listener class-name="resources.Listeners"/>  -->
+    </listeners>
+    <classes>
+      <class name="testCases.LoginTest"/> 
+      <class name="testCases.SearchProduct"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
